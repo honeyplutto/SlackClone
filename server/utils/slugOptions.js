@@ -5,4 +5,4 @@ export const option = {
     strict: false,
     locale: 'en',
     trim: true,
-}
+};

@@ -1,7 +1,8 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate, Link } from 'react-router-dom';
 import { handleLogout, reset } from '../../store/auth/authSlice'
+import Avatar from '../Avatar/Avatar';
 import './Header.css'
 
 function Header() {
@@ -44,6 +45,7 @@ function Header() {
                     </Link>
                 </div>
                 )}
+                {/* <Avatar /> */}
         </div>
     )
 }

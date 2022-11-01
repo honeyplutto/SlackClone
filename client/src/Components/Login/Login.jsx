@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleLogin } from '../../store/auth/authSlice'
+import Avatar from '../Avatar/Avatar';
 import './Login.css'
 
 function Login() {
@@ -13,6 +14,7 @@ function Login() {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const image = JSON.parse(localStorage.getItem('image'));
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -54,7 +56,7 @@ function Login() {
                         <span>New User? <Link to='/registration' style={{color: '#8A9A5B', textDecoration: 'none', }}>Join Us</Link></span>
                     </div>
                 </div>
-            </form>
+            </form>{image? (<Avatar />) : (<></>)}
         </div>
   )
 }

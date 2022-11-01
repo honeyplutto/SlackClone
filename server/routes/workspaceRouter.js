@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { createWorkSpace, findWorkSpaceByUser, findById } from '../controller/workspaceController';
+import { createWorkSpace, findWorkSpaceByUser } from '../controller/workspaceController';
 
 const router = new Router();
 

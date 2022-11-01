@@ -20,8 +20,3 @@ export const findWorkSpaceByUser = async (req, res) => {
     }
     
 }
-
-export const findById = async (req, res) => {
-    const id = req.params.id;
-    res.json(id);
-}

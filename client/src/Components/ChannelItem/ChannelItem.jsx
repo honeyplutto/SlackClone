@@ -11,7 +11,7 @@ function ChannelItem(element) {
             Channel Name - {element.element.channel_name}
         </p>
     </div>
-  )
+    )
 }
 
 export default ChannelItem
