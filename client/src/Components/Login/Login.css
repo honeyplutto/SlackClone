@@ -1,0 +1,68 @@
+.login_div {
+    display: flex;
+    flex-direction: column; 
+    align-items: 'center';
+    justify-content: center;
+}
+
+.login_form {
+    margin-top: 50px;
+    position: relative;
+    width: 360px;
+    background: #8A9A5B;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.22);
+}
+
+.login_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.login_input {
+    width: 282px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_input label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.login_button button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 239px;
+    height: 51px;
+    background: #8A9A5B;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.input_box {
+    width: 360px;
+    height: 466px;
+    background: #FFFFFF;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration_href span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
